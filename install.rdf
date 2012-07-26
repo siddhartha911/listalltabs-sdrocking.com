@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<r:RDF xmlns="http://www.mozilla.org/2004/em-rdf#"
+       xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <r:Description about="urn:mozilla:install-manifest">
+	<creator>Siddhartha Dugar</creator>
+    <id>listalltabs@sdrocking.com</id>
+	<name>Permanent List-all-tabs Button</name>
+	<description>Bring back the List-all-tabs button removed in Bug 714281</description>
+    <homepageURL>http://userstyles.org/users/43231</homepageURL>
+    <version>2.0</version>
+
+    <bootstrap>true</bootstrap>
+    <type>2</type>
+    
+    <!-- Firefox -->
+    <targetApplication>
+      <r:Description>
+        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+        <minVersion>12.0a1</minVersion>
+        <maxVersion>12.0a1</maxVersion>
+      </r:Description>
+    </targetApplication>
+  </r:Description>
+</r:RDF>
